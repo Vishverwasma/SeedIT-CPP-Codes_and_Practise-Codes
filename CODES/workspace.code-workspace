@@ -1,0 +1,26 @@
+{
+	"folders": [],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+			
+
+		]
+	},
+	"settings": {
+		"code-runner.runInTerminal": true,
+		"code-runner.saveAllFilesBeforeRun": true,
+		"code-runner.saveFileBeforeRun": true,
+		"C_Cpp.errorSquiggles": "disabled",
+		"files.associations": {
+			"*.embeddedhtml": "html",
+			"iostream": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"formulahendry.code-runner"
+		]
+	}
+}
