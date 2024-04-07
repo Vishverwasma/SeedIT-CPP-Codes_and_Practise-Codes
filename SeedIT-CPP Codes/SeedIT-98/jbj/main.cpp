@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+class Prime{
+     int n,d;
+     public:
+     void input(){
+        cout<<"Your Inout Prime Number Is : ";
+        cin>>n;
+     }
+     void nexprime(){
+      int c=0;
+      cout<<"Next Prime Number : ";
+        while(true){
+            n++;
+            c=0;
+            for(int i=1;i<=n/2;i++){
+                if(n%i==0){
+                    c=c+1;
+                }
+            }
+        }
+            if(c==1){
+                cout<<n;
+            }
+
+}
+};
+
+int main(){
+     Prime p;
+     p.input();
+     p.nexprime();
+}

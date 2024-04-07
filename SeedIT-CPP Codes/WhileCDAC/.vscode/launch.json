@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Shape2DDriver",
+      "request": "launch",
+      "mainClass": "Java.Shape2DDriver",
+      "projectName": "WhileCDAC_20094012"
+    },
+    {
+      "type": "java",
+      "name": "FishMain",
+      "request": "launch",
+      "mainClass": "Java.FishMain",
+      "projectName": "WhileCDAC_20094012"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/Batch 5/CODES/WhileCDAC",
+      "program": "d:/Batch 5/CODES/WhileCDAC/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
